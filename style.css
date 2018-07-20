@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .body {
+    background: black;
+    width: 495px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+  }
+
+  .header {
+    background: purple;
+    width: 100%;
+    padding: 20px;
+    margin: 0 0 10px 0;
+  }
+
+  .nav {
+    background: green;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .section {
+    float: left;
+    background: orange;
+    width: 58.5%;
+    padding: 20px;
+    margin: 20px 20px 20px 0;
+    height: 305px;
+  }
+
+  .article {
+    background: pink;
+    width: 100%;
+    padding: 15px 10px 10px 10px;
+    margin: 5px 0 0 0;
+  }
+
+  .aside {
+    float: right;
+    background: indigo;
+    width: 37%;
+    padding: 20px;
+    margin: 20px 0 20px 0;
+    height: 305px;
+  }
+
+  .footer {
+    clear: both;
+    background: yellow;
+    width: 100%;
+    padding: 20px;
+  }
+
+  h1,h2,h3,p {
+    background: brown;
+  }
